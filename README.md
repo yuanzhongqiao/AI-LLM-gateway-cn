@@ -78,13 +78,13 @@
 > [View the complete list of 100+ supported models here](https://portkey.ai/docs/welcome/what-is-portkey#ai-providers-supported)
 <br />
 
-## Features
+## 特征 
 
 <table>
   <tr>
     <td>
-      <h4><a href="https://portkey.ai/docs/product/ai-gateway-streamline-llm-integrations/universal-api">Unified API Signature</a></h4>
-      Connect with 100+ LLM using OpenAI's API signature. The AI gateway handles the request, response and error transformations so you don't have to make any changes to your code. You can use the OpenAI SDK itself to connect to any of the supported LLMs.
+      <h4><a href="https://portkey.ai/docs/product/ai-gateway-streamline-llm-integrations/universal-api">统一API签名</a></h4>
+      使用 OpenAI 的 API 签名与 100 多个LLMs建立联系。</font><font style="vertical-align: inherit;">AI 网关处理请求、响应和错误转换，因此您无需对代码进行任何更改。</font><font style="vertical-align: inherit;">您可以使用 OpenAI SDK 本身连接到任何受支持的 LLM。
       <br><br>
       <img src="docs/images/openai.png" height=40 />&nbsp;&nbsp;&nbsp;<img src="docs/images/azure.png" height=40 />&nbsp;&nbsp;&nbsp;
       <img src="docs/images/anyscale.png" height=40 />&nbsp;&nbsp;&nbsp;
@@ -98,8 +98,9 @@
      <br><br>
     </td>
     <td>
-      <h4><a href="https://portkey.ai/docs/product/ai-gateway-streamline-llm-integrations/fallbacks">Fallback</a></h4>
-      Don't let failures stop you. The Fallback feature allows you to specify a list of Language Model APIs (LLMs) in a prioritized order. If the primary LLM fails to respond or encounters an error, Portkey will automatically fallback to the next LLM in the list, ensuring your application's robustness and reliability.
+      <h4><a href="https://portkey.ai/docs/product/ai-gateway-streamline-llm-integrations/fallbacks">备份</a></h4>
+      font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+      不要让失败阻止你。</font><font style="vertical-align: inherit;">回退功能允许您按优先顺序指定语言模型 API (LLM) 列表。</font><font style="vertical-align: inherit;">如果主要的 LLM 无法响应或遇到错误，Portkey 将自动回退到列表中的下一个 LLM，确保您的应用程序的稳健性和可靠性。
       <br><br>
       <img src="https://framerusercontent.com/images/gmlOW8yeKP2pGuIsObM6gKLzeMI.png" height=200 />
     </td>
@@ -123,10 +124,11 @@
 </table>
 <br>
 
-## Configuring the AI Gateway
-The AI gateway supports [configs](https://portkey.ai/docs/api-reference/config-object) to enable versatile routing strategies like **fallbacks**, **load balancing**, **retries** and more.
+## 配置AI网关
+
+The AI gateway  支持 [configs](https://portkey.ai/docs/api-reference/config-object) 多种路由策略 **fallbacks**, **load balancing**, **retries** and more.
 <br><br>
-You can use these configs while making the OpenAI call through the `x-portkey-config` header
+您可以在通过  configs 使得  OpenAI call through the `x-portkey-config` header
 ```js
 // Using the OpenAI JS SDK
 const client = new OpenAI({
@@ -177,7 +179,7 @@ const client = new OpenAI({
 > Read more about the [config object](https://portkey.ai/docs/api-reference/config-object).
 <br>
 
-## Supported SDKs
+## 支持的 SDKs
 
 | Language | Supported SDKs |
 |---|---|
@@ -190,23 +192,26 @@ const client = new OpenAI({
 
 <br>
 
-## Deploying AI Gateway
+## 部署 AI Gateway
 [See docs](docs/installation-deployments.md) on installing the AI Gateway locally or deploying it on popular locations.
 
 <br>
 
-## Roadmap
+## ROADMAP
 
-1. Support for more providers. Missing a provider or LLM Platform, [raise a feature request](https://github.com/Portkey-AI/gateway/issues).
-2. Enhanced load balancing features to optimize resource use across different models and providers.
-3. More robust fallback and retry strategies to further improve the reliability of requests.
-4. Increased customizability of the unified API signature to cater to more diverse use cases.
+<ol dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">支持更多提供商。</font><font style="vertical-align: inherit;">缺少提供商或 LLM 平台，</font></font><a href="https://github.com/Portkey-AI/gateway/issues"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请提出功能请求</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">增强的负载平衡功能可优化不同模型和提供商之间的资源使用。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更稳健的回退和重试策略，进一步提高请求的可靠性。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">提高了统一 A&ZeroWidthSpace;&ZeroWidthSpace;PI 签名的可定制性，以满足更多样化的用例。</font></font></li>
+</ol>
+<p dir="auto"><a href="https://github.com/Portkey-AI/gateway/projects/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">💬 在此处参与路线图讨论。</font></font></a></p>
 
-[💬 Participate in Roadmap discussions here.](https://github.com/Portkey-AI/gateway/projects/)
+ 
 
 <br>
 
-## Contributing
+## 贡献
 
 The easiest way to contribute is to pick any issue with the `good first issue` tag 💪. Read the Contributing guidelines [here](/CONTRIBUTING.md).
 
@@ -214,7 +219,7 @@ Bug Report? [File here](https://github.com/Portkey-AI/gateway/issues) | Feature 
 
 <br>
 
-## Community
+## 社区
 
 Join our growing community around the world, for help, ideas, and discussions on AI.
 
