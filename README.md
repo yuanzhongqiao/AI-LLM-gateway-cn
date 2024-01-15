@@ -193,7 +193,7 @@ const client = new OpenAI({
 <br>
 
 ## 部署 AI Gateway
-[See docs](docs/installation-deployments.md) on installing the AI Gateway locally or deploying it on popular locations.
+[See docs](docs/installation-deployments.md)  请参阅有关在本地安装 AI Gateway 或将其部署在热门位置的
 
 <br>
 
