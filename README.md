@@ -1,8 +1,8 @@
 <div align="center">
 <img src="/docs/images/gateway-border.png" width=350>
 
-# AI Gateway
-### Route to 100+ LLMs with 1 fast & friendly API.
+# AI 网关
+### 通过 1 个快速且友好的 API 升读 100 多个 LLMs.
 
 [![License](https://img.shields.io/github/license/Ileriayo/markdown-badges)](./LICENSE)
 [![Discord](https://img.shields.io/discord/1143393887742861333)](https://portkey.ai/community)
